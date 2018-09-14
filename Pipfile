@@ -5,7 +5,9 @@ name = "pypi"
 
 [packages]
 jupyter = "*"
-docx = "*"
+ipykernel = "*"
+matplotlib = "*"
+python-docx = "*"
 
 [dev-packages]
 

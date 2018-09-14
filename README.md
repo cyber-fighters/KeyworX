@@ -4,3 +4,13 @@
 
 ## Goal
 Keyword-based document search
+
+## Installation
+
+Jupyter
+* install kernel of correct VE with `python -m ipykernel install --user`
+* verify with 
+	```python
+	import sys
+	sys.executable
+	```
