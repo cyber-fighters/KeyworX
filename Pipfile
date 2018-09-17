@@ -9,6 +9,7 @@ ipykernel = "*"
 matplotlib = "*"
 python-docx = "*"
 "pywin32" = "*"
+"beautifulsoup4" = "*"
 
 [dev-packages]
 
