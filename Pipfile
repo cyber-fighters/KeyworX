@@ -12,6 +12,7 @@ python-docx = "*"
 "beautifulsoup4" = "*"
 requests = "*"
 tqdm = "*"
+pandas = "*"
 
 [dev-packages]
 
