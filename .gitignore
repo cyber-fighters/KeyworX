@@ -4,3 +4,4 @@
 #project
 paths.json
 data/*
+*.h5
