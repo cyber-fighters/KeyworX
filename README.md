@@ -2,13 +2,16 @@
 
 # KeyworX
 
+
 ## Goal
 Keyword-based document search
 
-# Execution
+
+## Execution
 The pipeline consists of the following steps:
 * `data_mining`: gather the text data and save to pickle file
 * `data_exploration`: display and explore the data
+
 
 ## Setup
 
