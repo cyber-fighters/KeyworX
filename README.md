@@ -12,9 +12,6 @@ The pipeline consists of the following steps:
 
 ## Setup
 
-### Python
-
-
 ### Files
 The file `data/paths.json` collects hardcoded paths to data files or other descriptive names of data attributes and has to be created by the user himself. It is not included in the repo for privacy reasons. Example contents:
 ```json
