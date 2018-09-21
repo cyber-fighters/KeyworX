@@ -31,8 +31,8 @@ The file `data/paths.json` collects hardcoded paths to data files or other descr
 ```
 
 ### Installation
-* download python (>= 3.6) for windows (includes `pip`)
-* install [pipenv](pipenv.readthedocs.io): `pip install pipenv`
+* download [python](www.python.org/downloads) (>= 3.6) for windows (includes `pip`)
+* install [pipenv](www.pipenv.readthedocs.io): `pip install pipenv`
 * install everything using `pipenv install`
 * start shell of virtual environment (VE): `pipenv shell`
 * force Jupyter to use correct kernel
