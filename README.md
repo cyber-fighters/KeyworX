@@ -12,6 +12,9 @@ The pipeline consists of the following steps:
 
 ## Setup
 
+### Python
+
+
 ### Files
 The file `data/paths.json` collects hardcoded paths to data files or other descriptive names of data attributes and has to be created by the user himself. It is not included in the repo for privacy reasons. Example contents:
 ```json
@@ -28,14 +31,18 @@ The file `data/paths.json` collects hardcoded paths to data files or other descr
 ```
 
 ### Installation
-
-Jupyter
-* install kernel of correct VE with `python -m ipykernel install --user`
-* verify with
-	```python
-	import sys
-	sys.executable
-	```
+* download python (>= 3.6) for windows (includes `pip`)
+* install [pipenv](pipenv.readthedocs.io): `pip install pipenv`
+* install everything using `pipenv install`
+* start shell of virtual environment (VE): `pipenv shell`
+* force Jupyter to use correct kernel
+	* install kernel of correct VE with `python -m ipykernel install --user`
+	* verify with
+		```python
+		import sys
+		sys.executable
+		```
+* have fun!
 	
 ### Install git hooks
 To keep commits in a good style, some checks are executed at different stages of the git work stream. Run
